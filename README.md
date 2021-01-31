@@ -19,16 +19,16 @@
 
 ```
 
-###
+## Database Creation
 
 For database creation import init.sql and create_tables.sql to your phpmyadmin or mysql
 
-###
+## How to run application
 
 Run application as follows:
     └── python app.py
 
-###
+## Postman Test and Unit Test
 
 I have included both Postman test and unit test.
 
