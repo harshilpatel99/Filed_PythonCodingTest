@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "692832e4-479c-4cb2-856f-6fcd0e269805",
+		"name": "Filed Process_Transaction",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/process_payment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CreditCardNumber\": \"1234 5679 8465 4555\",\r\n    \"CardHolder\": \"orange\",\r\n    \"ExpirationDate\": \"2025-12-25\",\r\n    \"SecurityCode\": \"456\",\r\n    \"Amount\": 21\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/process_payment",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"process_payment"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
